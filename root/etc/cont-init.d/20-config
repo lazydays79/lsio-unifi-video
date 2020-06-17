@@ -20,4 +20,5 @@ done
 # permissions
 chown -R abc:abc \
 	/config \
-	/usr/lib/unifi
+	/usr/lib/unifi \
+    /usr/sbin/unifi-video
