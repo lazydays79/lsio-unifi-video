@@ -8,6 +8,10 @@ RUN \
    echo "**** install packages ****" && \
    apt-get update && \
    apt-get install -y \
+       sudo \
+       psmisc \
+       lsb-release \
+       libcap2 \
        mongodb \
        mongodb-server \
        openjdk-8-jre-headless \
