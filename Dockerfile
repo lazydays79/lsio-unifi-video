@@ -29,6 +29,9 @@ RUN \
 	    /var/tmp/* && \
     echo "**** finished ****"
 
+# add local files
+COPY root/ /
+
 WORKDIR /usr/lib/unifi-video
 
 VOLUME /config
